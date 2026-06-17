@@ -1,3 +1,11 @@
+# REFLECTION:
+
+* AI was very good at suggesting which technologies were best suited for the project and building the boiler plate.
+* Testing coverage however was somewhat short, but with proper guidance it got the job done right.
+* Had to double check some basic UI principles, reducing white space, focus on having a dashboard that would be readable and usable by a human.
+* Had to also double check some file structures and it did made some mistakes but very small. Overall I felt very comfortable and had no bigger issues.
+* I tested the code manually to check some border cases.
+
 # AI Interaction Log — Fleet Telemetry Monitoring System
 
 Claude Sonnet 4.6 · June 2026
