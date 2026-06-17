@@ -2,6 +2,11 @@
 
 This guide covers running both the API and the Dashboard.
 
+<img width="1785" height="954" alt="image" src="https://github.com/user-attachments/assets/e05fbf8b-e857-4172-9e53-85b1d202462f" />
+
+<img width="1781" height="553" alt="image" src="https://github.com/user-attachments/assets/2d8f17ee-e707-421a-a459-9d05c394fbe0" />
+
+
 ## Architecture
 
 ```
