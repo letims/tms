@@ -70,7 +70,7 @@ curl http://127.0.0.1:8000/health
 
 ```bash
 source .venv/bin/activate
-python -m pytest fleet_telemetry/tests/
+python3 -m pytest fleet_telemetry/tests/
 # 88 passed
 ```
 
@@ -205,7 +205,7 @@ VITE_API_BASE_URL=http://127.0.0.1:8001
 **Tests fail after moving directories**
 ```bash
 # Backend — always run from API/
-cd API && source .venv/bin/activate && python -m pytest fleet_telemetry/tests/
+cd API && source .venv/bin/activate && python3 -m pytest fleet_telemetry/tests/
 
 # Dashboard — always run from Dashboard/
 cd Dashboard && npm run test
@@ -216,7 +216,7 @@ cd Dashboard && npm run test
 ## Project structure
 
 ```
-TMSapi/
+tms/
 ├── API/
 │   ├── fleet_telemetry/     # Python package
 │   │   ├── routers/         # Endpoint handlers

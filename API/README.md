@@ -311,7 +311,7 @@ Liveness and database connectivity check. Returns `200` if the application is ru
 ## Project structure
 
 ```
-API/
+tms/API/
 ├── fleet_telemetry/
 │   ├── main.py              # App factory, lifespan (DB init + zone seed), CORS
 │   ├── config.py            # Pydantic settings, env variable bindings
