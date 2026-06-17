@@ -1,2 +1,21 @@
+# Virtual environment
 .venv
+
+# Test cache
 .pytest_cache
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# SQLite database files (runtime artefact)
+*.db
+*.db-wal
+*.db-shm
+
+# macOS
+.DS_Store
+
+# Coverage
+.coverage
+htmlcov/
